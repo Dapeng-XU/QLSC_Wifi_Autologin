@@ -5,7 +5,7 @@ var xu_Login = function () {
 };
 var xu_logout = function () {
 	yy();
-	xu_iID = setInterval("xu_Login()", 10*1000);
+	xu_iID = setInterval("xu_Login()", 8*1000);
 	var curDate = new Date();
 	console.log(curDate.getHours() + ":" + curDate.getMinutes() + ":" + curDate.getSeconds());
 };
